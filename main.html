@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="/PokeDex/css/css.css">
+   
+</head>
+<body>
+    <div class="title_div">
+        <img class="pokedex_img" src="/PokeDex/img/pokedeex.png" alt="">
+    </div>
+        <div class="pokedex">
+            <div class="body_case">
+                <div class="header_case">
+                    <div class="white_light"><div class="blue_line"></div></div>
+                    <div class="red_light light"></div>
+                    <div class="yellow_light light"></div>
+                    <div class="green_light light"></div>
+                </div>
+                <div class="sub_body">
+                    <div class="poke_body">
+                        <div class="wrapped_screen">
+                            <div class="gray_border">
+                                <div id="pokemon-wrapper" class="main_screen">
+                                    <div class="background_img">
+                                        <img  src="" alt="Pokemon Image">
+                                        <div id="toast" class="hidden">
+                                            <p>Pokémon not found</p>
+                                        </div>
+                                        <div id="loader"></div>
+                                    </div>
+                                </div>                            
+                            </div>
+                        </div>
+                        <div class="wrapped_buttons">
+                            <div class="large_lights">
+                                <div class="light_large l1"></div>
+                                <div class="light_large l2"></div>
+                            </div>
+                            <form id="search-pokemon">
+                                <div class="buttons_section">
+                                    <div class="div_button">
+                                        <button type="submit" class="enter_button"></button>
+                                    </div>
+                                    <div class="data_input">
+                                        <input required type="text" name="Pokemon" maxlength="19" placeholder="Search by name or number" autocomplete="off">
+                                    </div>
+                            </form>
+                            <div class="arrows_buttons"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="separator">
+                    <div class="micro_separator s1"></div>
+                    <div class="micro_separator2"></div>
+                    <div class="micro_separator s3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="right_case">
+            <div class="right_screen"></div>
+                <div class="grid_blue">
+                    <div class="blue_buttons">
+                        <div class="blue_button1"></div>
+                        <div class="blue_button2"></div>
+                        <div class="blue_button3"></div>
+                        <div class="blue_button4"></div>
+                        <div class="blue_button5"></div>
+                        <div class="blue_button6"></div>
+                        <div class="blue_button7"></div>
+                        <div class="blue_button8"></div>
+                        <div class="blue_button9"></div>
+                        <div class="blue_button10"></div>
+                    </div>
+                </div>
+            <div class="large_lights large_right">
+                <div class="light_large l3"></div>
+                <div class="light_large l4"></div>
+            </div>
+            <div class="white_buttons">
+                <div class="w1"></div>
+                <div class="w2"></div>
+            </div>
+            <div class="yellow_ball"></div>
+            <div class="big_buttons">
+                <div class="big_button bb1"></div>
+                <div class="big_button bb1"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/PokeDex/js/main.js"></script>
+</body>
+</html>
